@@ -88,22 +88,7 @@
   <h3>Velocidade maxima por rua</h3>
   <div id="lista-ruas"></div>
 </div>
- <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script>
-    const usuarioValido = "cliente26@osga.com";
-    const senhaValida = "13181leo";
-
-    function verificarLogin() {
-      const u = document.getElementById('usuario').value;
-      const s = document.getElementById('senha').value;
-      if (u === usuarioValido && s === senhaValida) {
-        document.getElementById('login').style.display = 'none';
-        document.getElementById('principal').style.display = 'block';
-        iniciarMapa();
-      } else {
-        alert("Login inválido");
-      }
-    }
+ 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
   const SERVER_IP = "45.181.56.47";
